@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- 基本設定(↓) -->
+  <PropertyGroup>
+    <!-- 環境設定 -->
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <!-- 実行ファイル関連 -->
+    <AssemblyName>RdbCompare</AssemblyName>
+  </PropertyGroup>
+  <!-- 基本設定(↑) -->
+
+  <!-- 依存設定(↓) -->
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+    <PackageReference Include="NLog" Version="5.0.4" />
+    <PackageReference Include="Otchitta.Libraries.Common" Version="1.0.0-alpha20221006" />
+  </ItemGroup>
+  <!-- 依存設定(↑) -->
+
+  <!-- 配置設定(↓) -->
+  <ItemGroup>
+    <None Update="NLog.config" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="RdbCompare.default.config" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+  <!-- 配置設定(↑) -->
+</Project>

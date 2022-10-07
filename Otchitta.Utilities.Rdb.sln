@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Compare", "Compare", "{294A2FA2-8E3B-4985-A671-85E8932D5B80}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Record", "Record", "{3A989860-7AC1-4A4A-954A-B79DD182AF19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Otchitta.Utilities.Rdb.Compare", "Compare\Record\Console.Code\Otchitta.Utilities.Rdb.Compare.csproj", "{1BCA3917-00B3-4FD3-9123-8C57DEE87B80}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BCA3917-00B3-4FD3-9123-8C57DEE87B80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BCA3917-00B3-4FD3-9123-8C57DEE87B80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BCA3917-00B3-4FD3-9123-8C57DEE87B80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BCA3917-00B3-4FD3-9123-8C57DEE87B80}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3A989860-7AC1-4A4A-954A-B79DD182AF19} = {294A2FA2-8E3B-4985-A671-85E8932D5B80}
+		{1BCA3917-00B3-4FD3-9123-8C57DEE87B80} = {3A989860-7AC1-4A4A-954A-B79DD182AF19}
+	EndGlobalSection
+EndGlobal
